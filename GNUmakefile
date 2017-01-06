@@ -34,7 +34,7 @@ include ../latex/make.rules
 #figures/%.png: %.png
 #	cp $< $@
 
-backmatter.tex : ../classicthesis_mine/backmatter.tex
+backmatter.tex : ../latex/classicthesis_mine/backmatter.tex
 	cp $< $@
 
 #listings/%.pl: %.pl
