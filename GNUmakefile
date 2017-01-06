@@ -1,5 +1,6 @@
 THISDIR := miscphysics
 THISBOOK := $(THISDIR)
+BASEVER := 21ffbad
 
 include ../latex/make.bookvars
 
