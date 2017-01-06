@@ -1,0 +1,2 @@
+# miscphysics
+miscphysics notes compilation
