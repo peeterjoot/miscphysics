@@ -39,9 +39,8 @@ Britannica, where most of the articles look like they are based more closely on 
 original works, Maxwell's equations were given in an integral form where the
 integrals were all related the tangential and normal components of the various vectors.  I had
 trouble seeing how these two forms were related at first because I hhad not expected to
-see the equations in this form.  Closer examination showed that the two forms
-were equivalent, and the transformation between the two can be made by applying
-applying standard integral transformations.
+see the equations in this form.
+Closer examination showed that the two forms were equivalent, and the transformation between the two can be made by applying standard integral transformations.
 
 Specifically this can be done by using Gauss's theorem (where \(V_S\) is the volume enclosed by surface S)
 
@@ -245,33 +244,29 @@ Note that these are the homogeneous subset of the general equations above.
 We can add any combination of scalar multiples to a specific solution
 to the general equation to create a solution that meets the boundary
 value conditions.
-
 \section{Symmetrical form of time dependent Maxwell's equations}
-
 It can
 be noted that the general decoupled differential equations above are more
 symmetrical then 4 equation form of Maxwell's equations, although the
 right hand sides have a significantly different form at a glance.  There
 are similarities.  Both have a \(-4\pi\) term and derivatives of the charge and
-current densities.  The electric field equation has space derivatives (the curl term) of
-the current density, and the the magnetic field equation has space derivatives of
+current densities.
+The electric field equation has space derivatives (the curl term) of
+the current density, and the magnetic field equation has space derivatives of
 the charge density (the gradient term) as well as a time derivative of the current
 density.
 
 We can write the left hand sides of the equations in a simpler form by using the
 space time four vector \((x_\alpha)_\alpha = (x, y, z, ict)\).
-
 \begin{equation}\label{eqn:maxwell:180}
 \begin{aligned}
 \delambert \,\BE &= - 4\pi \left(\curl \Bj\right) \\
 \delambert \,\BB &= - 4\pi \Bigl(\frac{1}{c} \PD{t}{\Bj} + \spacegrad \rho\Bigr)
 \end{aligned}
 \end{equation}
-
 These equations
 can be broken down
 into components, yielding six equations
-
 \begin{equation}\label{eqn:maxwell:200}
 \begin{aligned}
 \delambert \,E_x &= - 4\pi \Bigl(\PD{y}{j_z} - \PD{z}{j_y} \Bigr) \\

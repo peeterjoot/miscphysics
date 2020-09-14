@@ -2,3 +2,4 @@ miscphysics.V0.1.10.pdf (in progress.)
 - update email address
 - fix for listing hyphens
 - url fixes.
+- thethe.py fixes.
