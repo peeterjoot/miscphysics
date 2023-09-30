@@ -45,6 +45,9 @@ spellcheck: $(patsubst %.tex,%.sp,$(filter-out $(DONT_SPELL_CHECK),$(DO_SPELL_CH
 backmatter.tex : ../latex/classicthesis_mine/backmatter.tex
 	cp $< $@
 
+scrpage2.sty : ../latex/scrpage2.sty
+	cp $^ $@
+
 #listings/%.pl: %.pl
 #	mkdir -p $(@D)
 #	cp $< $@
